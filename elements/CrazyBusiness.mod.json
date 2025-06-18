@@ -1,0 +1,438 @@
+{
+  "_fv": 79,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 210,
+    "height": 183,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "listeentreprisv2.png",
+          "use1Xscale": true,
+          "x": 52,
+          "y": 4,
+          "locked": true
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_empty",
+          "text": {
+            "fixedValue": ""
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 116,
+          "y": 29,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_return_name_1",
+          "text": {
+            "fixedValue": "",
+            "name": "ReturnName1"
+          },
+          "color": {
+            "value": -3355444,
+            "falpha": 0.0
+          },
+          "x": 113,
+          "y": 37,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_return_type_1",
+          "text": {
+            "fixedValue": "",
+            "name": "ReturnType1"
+          },
+          "color": {
+            "value": -3355444,
+            "falpha": 0.0
+          },
+          "x": 204,
+          "y": 37,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_return_phone_1",
+          "text": {
+            "fixedValue": "",
+            "name": "ReturnPhone1"
+          },
+          "color": {
+            "value": -3355444,
+            "falpha": 0.0
+          },
+          "x": 285,
+          "y": 37,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_return_name_2",
+          "text": {
+            "fixedValue": "",
+            "name": "ReturnName2"
+          },
+          "color": {
+            "value": -3355444,
+            "falpha": 0.0
+          },
+          "x": 113,
+          "y": 74,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_return_type_2",
+          "text": {
+            "fixedValue": "",
+            "name": "ReturnType2"
+          },
+          "color": {
+            "value": -3355444,
+            "falpha": 0.0
+          },
+          "x": 204,
+          "y": 74,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_return_phone_2",
+          "text": {
+            "fixedValue": "",
+            "name": "ReturnPhone2"
+          },
+          "color": {
+            "value": -3355444,
+            "falpha": 0.0
+          },
+          "x": 285,
+          "y": 74,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_return_name_3",
+          "text": {
+            "fixedValue": "",
+            "name": "ReturnName3"
+          },
+          "color": {
+            "value": -3355444,
+            "falpha": 0.0
+          },
+          "x": 113,
+          "y": 110,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_return_type_3",
+          "text": {
+            "fixedValue": "",
+            "name": "ReturnType3"
+          },
+          "color": {
+            "value": -3355444,
+            "falpha": 0.0
+          },
+          "x": 204,
+          "y": 111,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_return_phone_3",
+          "text": {
+            "fixedValue": "",
+            "name": "ReturnPhone3"
+          },
+          "color": {
+            "value": -3355444,
+            "falpha": 0.0
+          },
+          "x": 285,
+          "y": 111,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_return_name_4",
+          "text": {
+            "fixedValue": "",
+            "name": "ReturnName4"
+          },
+          "color": {
+            "value": -3355444,
+            "falpha": 0.0
+          },
+          "x": 113,
+          "y": 146,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_return_type_4",
+          "text": {
+            "fixedValue": "",
+            "name": "ReturnType4"
+          },
+          "color": {
+            "value": -3355444,
+            "falpha": 0.0
+          },
+          "x": 204,
+          "y": 147,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_return_phone_4",
+          "text": {
+            "fixedValue": "",
+            "name": "ReturnPhone4"
+          },
+          "color": {
+            "value": -3355444,
+            "falpha": 0.0
+          },
+          "x": 285,
+          "y": 148,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_return_name_5",
+          "text": {
+            "fixedValue": "",
+            "name": "ReturnName5"
+          },
+          "color": {
+            "value": -3355444,
+            "falpha": 0.0
+          },
+          "x": 113,
+          "y": 181,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_return_type_5",
+          "text": {
+            "fixedValue": "",
+            "name": "ReturnType5"
+          },
+          "color": {
+            "value": -3355444,
+            "falpha": 0.0
+          },
+          "x": 204,
+          "y": 182,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_return_phone_5",
+          "text": {
+            "fixedValue": "",
+            "name": "ReturnPhone5"
+          },
+          "color": {
+            "value": -3355444,
+            "falpha": 0.0
+          },
+          "x": 285,
+          "y": 183,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_return_player",
+          "text": {
+            "fixedValue": "",
+            "name": "ReturnPlayer"
+          },
+          "color": {
+            "value": -3342337,
+            "falpha": 0.0
+          },
+          "x": 122,
+          "y": 21,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "sheitan.png",
+          "use1Xscale": true,
+          "x": 108,
+          "y": 21,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_return_player_2",
+          "text": {
+            "fixedValue": "",
+            "name": "ReturnPlayer2"
+          },
+          "color": {
+            "value": -3342337,
+            "falpha": 0.0
+          },
+          "x": 122,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "sheitan.png",
+          "use1Xscale": true,
+          "x": 108,
+          "y": 58,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "sheitan.png",
+          "use1Xscale": true,
+          "x": 108,
+          "y": 95,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_return_player_3",
+          "text": {
+            "fixedValue": "",
+            "name": "ReturnPlayer3"
+          },
+          "color": {
+            "value": -3342337,
+            "falpha": 0.0
+          },
+          "x": 122,
+          "y": 95,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_return_player_4",
+          "text": {
+            "fixedValue": "",
+            "name": "ReturnPlayer4"
+          },
+          "color": {
+            "value": -3342337,
+            "falpha": 0.0
+          },
+          "x": 122,
+          "y": 130,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_return_player_5",
+          "text": {
+            "fixedValue": "",
+            "name": "ReturnPlayer5"
+          },
+          "color": {
+            "value": -3342337,
+            "falpha": 0.0
+          },
+          "x": 122,
+          "y": 166,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "sheitan.png",
+          "use1Xscale": true,
+          "x": 108,
+          "y": 130,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "sheitan.png",
+          "use1Xscale": true,
+          "x": 108,
+          "y": 166,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

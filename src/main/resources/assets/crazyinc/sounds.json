@@ -1,0 +1,18 @@
+{
+  "correct": {
+    "sounds": [
+      {
+        "name": "crazyinc:correct-pr_nwizbkd",
+        "stream": false
+      }
+    ]
+  },
+  "false": {
+    "sounds": [
+      {
+        "name": "crazyinc:wrong-pr_krm3hvu",
+        "stream": false
+      }
+    ]
+  }
+}

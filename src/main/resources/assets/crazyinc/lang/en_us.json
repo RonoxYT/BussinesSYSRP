@@ -1,0 +1,14 @@
+{
+  "gui.crazyinc.crazy_create_bussiness.Phonenumber": "ex : 765",
+  "gui.crazyinc.crazy_create_bussiness.label_phone_number": "Phone Number",
+  "gui.crazyinc.crazy_create_bussiness.label_name_bussiness": "Business Name",
+  "subtitles.false": "",
+  "gui.crazyinc.crazy_create_bussiness.BusinessName": "ex: ProBuilder",
+  "gui.crazyinc.crazy_create_bussiness.label_business_type": "Business Type",
+  "gui.crazyinc.crazy_create_bussiness.label_error_243": "ERROR : 243",
+  "gui.crazyinc.crazy_business.label_empty": "",
+  "gui.crazyinc.crazy_create_bussiness.label_error_404": "ERROR : 404",
+  "gui.crazyinc.crazy_create_bussiness.BusinessType": "ex: Builder",
+  "subtitles.correct": "",
+  "gui.crazyinc.crazy_create_bussiness.button_create": "Create"
+}

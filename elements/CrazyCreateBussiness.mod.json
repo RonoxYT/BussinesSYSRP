@@ -1,0 +1,170 @@
+{
+  "_fv": 79,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 0,
+    "height": 0,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "ex: ProBuilder",
+          "name": "BusinessName",
+          "width": 120,
+          "height": 20,
+          "x": 116,
+          "y": 62,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_name_bussiness",
+          "text": {
+            "fixedValue": "Business Name"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 138,
+          "y": 46,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_business_type",
+          "text": {
+            "fixedValue": "Business Type"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 117,
+          "y": 90,
+          "locked": false
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "ex: Builder",
+          "name": "BusinessType",
+          "width": 120,
+          "height": 20,
+          "x": 159,
+          "y": 113,
+          "locked": false
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "ex : 765",
+          "name": "Phonenumber",
+          "width": 120,
+          "height": 20,
+          "x": 138,
+          "y": 149,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_phone_number",
+          "text": {
+            "fixedValue": "Phone Number"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 138,
+          "y": 135,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_create",
+          "text": "Create",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "CreateBussine"
+          },
+          "width": 56,
+          "height": 20,
+          "x": 286,
+          "y": 196,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_error_243",
+          "text": {
+            "fixedValue": "ERROR : 243"
+          },
+          "color": {
+            "value": -3407872,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "ReturnfalsortrueERROR"
+          },
+          "x": 225,
+          "y": 201,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_error_404",
+          "text": {
+            "fixedValue": "ERROR : 404"
+          },
+          "color": {
+            "value": -6750208,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "ReturnERRORSTACKS"
+          },
+          "x": 225,
+          "y": 201,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guicreationv3.png",
+          "use1Xscale": false,
+          "x": 52,
+          "y": 13,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}
