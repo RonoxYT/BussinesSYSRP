@@ -21,8 +21,8 @@
       "registry_name": "crazy_business",
       "metadata": {
         "files": [
-          "src/main/java/crazyinc/client/gui/CrazyBusinessScreen.java",
-          "src/main/java/crazyinc/world/inventory/CrazyBusinessMenu.java"
+          "src/main/java/crazyinc/world/inventory/CrazyBusinessMenu.java",
+          "src/main/java/crazyinc/client/gui/CrazyBusinessScreen.java"
         ]
       },
       "path": "~/GUI"
@@ -130,9 +130,9 @@
       "registry_name": "crazy_create_bussiness",
       "metadata": {
         "files": [
-          "src/main/java/crazyinc/world/inventory/CrazyCreateBussinessMenu.java",
           "src/main/java/crazyinc/client/gui/CrazyCreateBussinessScreen.java",
-          "src/main/java/crazyinc/network/CrazyCreateBussinessButtonMessage.java"
+          "src/main/java/crazyinc/network/CrazyCreateBussinessButtonMessage.java",
+          "src/main/java/crazyinc/world/inventory/CrazyCreateBussinessMenu.java"
         ]
       },
       "path": "~/GUI"
@@ -809,12 +809,12 @@
   },
   "metadata": {
     "files": [
-      "src/main/java/crazyinc/init/CrazyincModSounds.java",
-      "src/main/resources/pack.mcmeta",
-      "src/main/java/crazyinc/CrazyincMod.java",
       "src/main/resources/assets/crazyinc/sounds.json",
-      "src/main/java/crazyinc/network/CrazyincModVariables.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/crazyinc/init/CrazyincModSounds.java",
+      "src/main/java/crazyinc/CrazyincMod.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/crazyinc/network/CrazyincModVariables.java",
       "src/main/java/crazyinc/init/CrazyincModScreens.java",
       "src/main/java/crazyinc/init/CrazyincModMenus.java",
       "src/main/java/crazyinc/network/MenuStateUpdateMessage.java"
@@ -853,8 +853,9 @@
     "description": "A System Inc",
     "author": "ODP studios DEV",
     "websiteURL": "https://mcreator.net",
-    "license": "Not specified",
+    "license": "All Rights Reserved",
     "serverSideOnly": false,
+    "modPicture": "logo_inc",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],

@@ -73,7 +73,7 @@ public class CrazyCreateBussinessScreen extends AbstractContainerScreen<CrazyCre
 		RenderSystem.setShaderColor(1, 1, 1, 1);
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
-		guiGraphics.blit(ResourceLocation.parse("crazyinc:textures/screens/guicreationv3.png"), this.leftPos + -162, this.topPos + -107, 0, 0, 300, 217, 300, 217);
+		guiGraphics.blit(ResourceLocation.parse("crazyinc:textures/screens/finale_gui.png"), this.leftPos + -188, this.topPos + -118, 0, 0, 354, 217, 354, 217);
 		RenderSystem.disableBlend();
 	}
 
@@ -105,19 +105,20 @@ public class CrazyCreateBussinessScreen extends AbstractContainerScreen<CrazyCre
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.drawString(this.font, Component.translatable("gui.crazyinc.crazy_create_bussiness.label_name_bussiness"), -76, -74, -12829636, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.crazyinc.crazy_create_bussiness.label_business_type"), -97, -30, -12829636, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.crazyinc.crazy_create_bussiness.label_phone_number"), -76, 15, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.crazyinc.crazy_create_bussiness.label_name_bussiness"), -112, -93, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.crazyinc.crazy_create_bussiness.label_business_type"), -112, -48, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.crazyinc.crazy_create_bussiness.label_phone_number"), -112, 61, -12829636, false);
 		if (ReturnfalsortrueERRORProcedure.execute(entity))
-			guiGraphics.drawString(this.font, Component.translatable("gui.crazyinc.crazy_create_bussiness.label_error_243"), 11, 81, -3407872, false);
+			guiGraphics.drawString(this.font, Component.translatable("gui.crazyinc.crazy_create_bussiness.label_error_243"), 17, 72, -3407872, false);
 		if (ReturnERRORSTACKSProcedure.execute(entity))
-			guiGraphics.drawString(this.font, Component.translatable("gui.crazyinc.crazy_create_bussiness.label_error_404"), 11, 81, -6750208, false);
+			guiGraphics.drawString(this.font, Component.translatable("gui.crazyinc.crazy_create_bussiness.label_error_404"), 17, 72, -6750208, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.crazyinc.crazy_create_bussiness.label_create_an_bussines"), -25, -107, -12829636, false);
 	}
 
 	@Override
 	public void init() {
 		super.init();
-		BusinessName = new EditBox(this.font, this.leftPos + -97, this.topPos + -57, 118, 18, Component.translatable("gui.crazyinc.crazy_create_bussiness.BusinessName"));
+		BusinessName = new EditBox(this.font, this.leftPos + -111, this.topPos + -73, 118, 18, Component.translatable("gui.crazyinc.crazy_create_bussiness.BusinessName"));
 		BusinessName.setMaxLength(8192);
 		BusinessName.setResponder(content -> {
 			if (!menuStateUpdateActive)
@@ -125,7 +126,7 @@ public class CrazyCreateBussinessScreen extends AbstractContainerScreen<CrazyCre
 		});
 		BusinessName.setHint(Component.translatable("gui.crazyinc.crazy_create_bussiness.BusinessName"));
 		this.addWidget(this.BusinessName);
-		BusinessType = new EditBox(this.font, this.leftPos + -54, this.topPos + -6, 118, 18, Component.translatable("gui.crazyinc.crazy_create_bussiness.BusinessType"));
+		BusinessType = new EditBox(this.font, this.leftPos + -111, this.topPos + -34, 118, 18, Component.translatable("gui.crazyinc.crazy_create_bussiness.BusinessType"));
 		BusinessType.setMaxLength(8192);
 		BusinessType.setResponder(content -> {
 			if (!menuStateUpdateActive)
@@ -133,7 +134,7 @@ public class CrazyCreateBussinessScreen extends AbstractContainerScreen<CrazyCre
 		});
 		BusinessType.setHint(Component.translatable("gui.crazyinc.crazy_create_bussiness.BusinessType"));
 		this.addWidget(this.BusinessType);
-		Phonenumber = new EditBox(this.font, this.leftPos + -75, this.topPos + 30, 118, 18, Component.translatable("gui.crazyinc.crazy_create_bussiness.Phonenumber"));
+		Phonenumber = new EditBox(this.font, this.leftPos + -111, this.topPos + 73, 118, 18, Component.translatable("gui.crazyinc.crazy_create_bussiness.Phonenumber"));
 		Phonenumber.setMaxLength(8192);
 		Phonenumber.setResponder(content -> {
 			if (!menuStateUpdateActive)
@@ -146,7 +147,7 @@ public class CrazyCreateBussinessScreen extends AbstractContainerScreen<CrazyCre
 				PacketDistributor.sendToServer(new CrazyCreateBussinessButtonMessage(0, x, y, z));
 				CrazyCreateBussinessButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
-		}).bounds(this.leftPos + 72, this.topPos + 76, 56, 20).build();
+		}).bounds(this.leftPos + 88, this.topPos + 68, 56, 20).build();
 		this.addRenderableWidget(button_create);
 	}
 }

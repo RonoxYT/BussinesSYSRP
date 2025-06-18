@@ -17,8 +17,8 @@
           "name": "BusinessName",
           "width": 120,
           "height": 20,
-          "x": 116,
-          "y": 62,
+          "x": 102,
+          "y": 46,
           "locked": false
         }
       },
@@ -33,8 +33,8 @@
             "value": -12829636,
             "falpha": 0.0
           },
-          "x": 138,
-          "y": 46,
+          "x": 102,
+          "y": 27,
           "locked": false
         }
       },
@@ -49,8 +49,8 @@
             "value": -12829636,
             "falpha": 0.0
           },
-          "x": 117,
-          "y": 90,
+          "x": 102,
+          "y": 72,
           "locked": false
         }
       },
@@ -61,8 +61,8 @@
           "name": "BusinessType",
           "width": 120,
           "height": 20,
-          "x": 159,
-          "y": 113,
+          "x": 102,
+          "y": 85,
           "locked": false
         }
       },
@@ -73,8 +73,8 @@
           "name": "Phonenumber",
           "width": 120,
           "height": 20,
-          "x": 138,
-          "y": 149,
+          "x": 102,
+          "y": 192,
           "locked": false
         }
       },
@@ -89,8 +89,8 @@
             "value": -12829636,
             "falpha": 0.0
           },
-          "x": 138,
-          "y": 135,
+          "x": 102,
+          "y": 181,
           "locked": false
         }
       },
@@ -105,8 +105,8 @@
           },
           "width": 56,
           "height": 20,
-          "x": 286,
-          "y": 196,
+          "x": 302,
+          "y": 188,
           "locked": false
         }
       },
@@ -124,8 +124,8 @@
           "displayCondition": {
             "name": "ReturnfalsortrueERROR"
           },
-          "x": 225,
-          "y": 201,
+          "x": 231,
+          "y": 192,
           "locked": false
         }
       },
@@ -143,17 +143,33 @@
           "displayCondition": {
             "name": "ReturnERRORSTACKS"
           },
-          "x": 225,
-          "y": 201,
+          "x": 231,
+          "y": 192,
           "locked": false
         }
       },
       {
         "type": "image",
         "data": {
-          "image": "guicreationv3.png",
+          "image": "finale_gui.png",
           "use1Xscale": false,
-          "x": 52,
+          "x": 26,
+          "y": 2,
+          "locked": true
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_create_an_bussines",
+          "text": {
+            "fixedValue": "Create An Bussines"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 189,
           "y": 13,
           "locked": false
         }

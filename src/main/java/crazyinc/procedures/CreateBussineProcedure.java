@@ -36,9 +36,9 @@ public class CreateBussineProcedure {
 				CrazyincModVariables.MapVariables.get(world).syncData(world);
 				CrazyincModVariables.MapVariables.get(world).BussinesName1 = (entity instanceof Player _entity && _entity.containerMenu instanceof CrazyincModMenus.MenuAccessor _menu) ? _menu.getMenuState(0, "BusinessName", "") : "";
 				CrazyincModVariables.MapVariables.get(world).syncData(world);
-				CrazyincModVariables.MapVariables.get(world).BussinesType1 = (entity instanceof Player _entity && _entity.containerMenu instanceof CrazyincModMenus.MenuAccessor _menu) ? _menu.getMenuState(0, "BusinessType", "") : "";
-				CrazyincModVariables.MapVariables.get(world).syncData(world);
 				CrazyincModVariables.MapVariables.get(world).BussinesPhone1 = (entity instanceof Player _entity && _entity.containerMenu instanceof CrazyincModMenus.MenuAccessor _menu) ? _menu.getMenuState(0, "Phonenumber", "") : "";
+				CrazyincModVariables.MapVariables.get(world).syncData(world);
+				CrazyincModVariables.MapVariables.get(world).BussinesType1 = (entity instanceof Player _entity && _entity.containerMenu instanceof CrazyincModMenus.MenuAccessor _menu) ? _menu.getMenuState(0, "BusinessType", "") : "";
 				CrazyincModVariables.MapVariables.get(world).syncData(world);
 				if (world instanceof Level _level) {
 					if (!_level.isClientSide()) {
@@ -64,9 +64,9 @@ public class CreateBussineProcedure {
 				CrazyincModVariables.MapVariables.get(world).syncData(world);
 				CrazyincModVariables.MapVariables.get(world).BussinesName2 = (entity instanceof Player _entity && _entity.containerMenu instanceof CrazyincModMenus.MenuAccessor _menu) ? _menu.getMenuState(0, "BusinessName", "") : "";
 				CrazyincModVariables.MapVariables.get(world).syncData(world);
-				CrazyincModVariables.MapVariables.get(world).BussinesType2 = (entity instanceof Player _entity && _entity.containerMenu instanceof CrazyincModMenus.MenuAccessor _menu) ? _menu.getMenuState(0, "BusinessType", "") : "";
-				CrazyincModVariables.MapVariables.get(world).syncData(world);
 				CrazyincModVariables.MapVariables.get(world).BussinesPhone2 = (entity instanceof Player _entity && _entity.containerMenu instanceof CrazyincModMenus.MenuAccessor _menu) ? _menu.getMenuState(0, "Phonenumber", "") : "";
+				CrazyincModVariables.MapVariables.get(world).syncData(world);
+				CrazyincModVariables.MapVariables.get(world).BussinesType2 = (entity instanceof Player _entity && _entity.containerMenu instanceof CrazyincModMenus.MenuAccessor _menu) ? _menu.getMenuState(0, "BusinessType", "") : "";
 				CrazyincModVariables.MapVariables.get(world).syncData(world);
 				if (world instanceof Level _level) {
 					if (!_level.isClientSide()) {
@@ -92,9 +92,9 @@ public class CreateBussineProcedure {
 				CrazyincModVariables.MapVariables.get(world).syncData(world);
 				CrazyincModVariables.MapVariables.get(world).BussinesName3 = (entity instanceof Player _entity && _entity.containerMenu instanceof CrazyincModMenus.MenuAccessor _menu) ? _menu.getMenuState(0, "BusinessName", "") : "";
 				CrazyincModVariables.MapVariables.get(world).syncData(world);
-				CrazyincModVariables.MapVariables.get(world).BussinesType3 = (entity instanceof Player _entity && _entity.containerMenu instanceof CrazyincModMenus.MenuAccessor _menu) ? _menu.getMenuState(0, "BusinessType", "") : "";
-				CrazyincModVariables.MapVariables.get(world).syncData(world);
 				CrazyincModVariables.MapVariables.get(world).BussinesPhone3 = (entity instanceof Player _entity && _entity.containerMenu instanceof CrazyincModMenus.MenuAccessor _menu) ? _menu.getMenuState(0, "Phonenumber", "") : "";
+				CrazyincModVariables.MapVariables.get(world).syncData(world);
+				CrazyincModVariables.MapVariables.get(world).BussinesType3 = (entity instanceof Player _entity && _entity.containerMenu instanceof CrazyincModMenus.MenuAccessor _menu) ? _menu.getMenuState(0, "BusinessType", "") : "";
 				CrazyincModVariables.MapVariables.get(world).syncData(world);
 				if (world instanceof Level _level) {
 					if (!_level.isClientSide()) {
@@ -120,9 +120,9 @@ public class CreateBussineProcedure {
 				CrazyincModVariables.MapVariables.get(world).syncData(world);
 				CrazyincModVariables.MapVariables.get(world).BussinesName4 = (entity instanceof Player _entity && _entity.containerMenu instanceof CrazyincModMenus.MenuAccessor _menu) ? _menu.getMenuState(0, "BusinessName", "") : "";
 				CrazyincModVariables.MapVariables.get(world).syncData(world);
-				CrazyincModVariables.MapVariables.get(world).BussinesType4 = (entity instanceof Player _entity && _entity.containerMenu instanceof CrazyincModMenus.MenuAccessor _menu) ? _menu.getMenuState(0, "BusinessType", "") : "";
-				CrazyincModVariables.MapVariables.get(world).syncData(world);
 				CrazyincModVariables.MapVariables.get(world).BussinesPhone4 = (entity instanceof Player _entity && _entity.containerMenu instanceof CrazyincModMenus.MenuAccessor _menu) ? _menu.getMenuState(0, "Phonenumber", "") : "";
+				CrazyincModVariables.MapVariables.get(world).syncData(world);
+				CrazyincModVariables.MapVariables.get(world).BussinesType4 = (entity instanceof Player _entity && _entity.containerMenu instanceof CrazyincModMenus.MenuAccessor _menu) ? _menu.getMenuState(0, "BusinessType", "") : "";
 				CrazyincModVariables.MapVariables.get(world).syncData(world);
 				if (world instanceof Level _level) {
 					if (!_level.isClientSide()) {

@@ -804,7 +804,8 @@
       "gui.crazyinc.crazy_create_bussiness.label_error_404": "ERROR : 404",
       "gui.crazyinc.crazy_create_bussiness.BusinessType": "ex: Builder",
       "subtitles.correct": "",
-      "gui.crazyinc.crazy_create_bussiness.button_create": "Create"
+      "gui.crazyinc.crazy_create_bussiness.button_create": "Create",
+      "gui.crazyinc.crazy_create_bussiness.label_create_an_bussines": "Create An Bussines"
     }
   },
   "metadata": {
@@ -855,6 +856,7 @@
     "websiteURL": "https://mcreator.net",
     "license": "All Rights Reserved",
     "serverSideOnly": false,
+    "modPicture": "logo_inc",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
